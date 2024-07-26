@@ -63,8 +63,14 @@ recognition.addEventListener('result', (event) => {
 
     if (transcript.includes('صفحه نارنجی')) {
         transcript = '';
-        document.body.classList.add('Red');
+        document.body.classList.add('orange');
 
+    }
+
+    if (transcript.includes('صفحه آبی')) {
+        
+        transcript = '';
+        document.body.classList.add('blue')
     }
 
     if (transcript.includes('انگلیسی تایپ کن') && event.results[0].isFinal) {

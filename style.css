@@ -5,6 +5,18 @@ body{
     font-weight: bold;
     line-height: 1.8;
 }
+body.orange 
+{
+background-color: orange;
+    
+}
+
+body.blue
+{
+    background-color: darkblue;
+
+}
+
 
 .container{
     max-width: 800px;
