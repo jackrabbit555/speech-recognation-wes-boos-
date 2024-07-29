@@ -72,6 +72,11 @@ recognition.addEventListener('result', (event) => {
         transcript = '';
         document.body.classList.add('blue')
     }
+    if (transcript.includes('صفحه خاکستری')) {
+        transcript='',
+        document.body.classList.add('gray')
+        
+    }
 
     if (transcript.includes('انگلیسی تایپ کن') && event.results[0].isFinal) {
         recognition.stop();

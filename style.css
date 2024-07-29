@@ -14,9 +14,12 @@ background-color: orange;
 body.blue
 {
     background-color: darkblue;
-
 }
+body.gray
+{
 
+    background-color: gray;
+}
 
 .container{
     max-width: 800px;
